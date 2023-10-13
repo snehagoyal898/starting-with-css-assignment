@@ -1,0 +1,41 @@
+input[type=text] {
+    width: 70%;
+    padding: 12px 20px;
+    background-color: rgb(168, 81, 81);
+}
+input{
+    border:2px solid black;
+    color: black;
+}
+textarea{
+    background-color:rgba(25, 201, 157, 0.425);
+    border: 2px solid black;
+}
+input[type=submit]{
+    padding: 12px 12px;
+    background-color: rgb(25, 8, 175, 12);
+    opacity: 0.9;
+}
+form{
+    background-color: gray;
+    
+}
+label{
+    font-size: large;
+    font-style: normal;
+    font-weight: bolder;
+}
+legend{
+    font-size: large;
+    font-weight: bolder;
+    
+}
+input[type=email]{
+    background-color: rgb(173, 88, 173);
+    padding: 12px 12px;
+    width: 70%;
+
+}
+input[type=date]{
+    background-color: rgb(131, 131, 240);
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+    <!-- targetting div tags externally -->
+    <link rel="stylesheet" href="style.css">
+<style>
+#main-header{
+    font-weight: 500;
+    text-align: center;
+    text-decoration: underline;
+    color:rgb(75, 3, 3); ;
+    border: 1px solid black;
+    
+}
+/* targetting div tags internally */
+    .gandhi{
+        color: rgb(199, 39, 39);
+        background-color: blanchedalmond;
+    }   
+    
+    .nehru{
+        color:rgb(4, 124, 4);
+        background-color: rgb(230, 194, 129);
+        
+    }
+
+.vivekanand{
+color: rgb(82, 82, 180);
+background-color: rgb(124, 168, 124);
+
+}
+
+.sardar-patel{
+    color: rgb(231, 28, 28);
+    background-color: aqua;
+}
+</style>
+
+
+</head>
+
+<body>
+    <h1 id="main-header">Classes in different school groups</h1>
+<!-- targetting div tags inline -->
+    <div class="gandhi" style="color: rgb(184, 142, 223); background-color: chartreuse;">
+        <h1 >Gandhi group</h1>
+        <p>Class 1A</p>
+        <p>Class 4B</p>
+        <p>Class 7C</p>
+        <p>Class 9D</p>
+    </div>
+
+    <div class="nehru" style="color: rgb(8, 77, 56); background-color: antiquewhite;">
+        <h1 >Nehru group</h1>
+        <p>Class 2B</p>
+        <p>Class 3D</p>
+        <p>Class 5A</p>
+        <p>Class 10C</p>
+    </div>
+    
+    <div class="vivekanand" style="color: rgb(52, 24, 78); background-color: aquamarine;">
+    <h1 >vivekanand group</h1>
+    <p>Class 1C</p>
+    <p>Class 4A</p>
+    <p>Class 7A</p>
+    <p>Class 9B</p>
+</div>
+
+<div class="sardar-patel" style="color: rgb(125, 243, 8); background-color: brown;">
+<h1 >Sardar Patel group</h1>
+<p>Class 2A</p>
+<p>Class 3B</p>
+<p>Class 5C</p>
+<p>Class 10D</p>
+</div>
+<!-- when we apply different properties inline,internally,externally then inline get highest priority and external get least priority -->
+
+</body>
+
+</html>
